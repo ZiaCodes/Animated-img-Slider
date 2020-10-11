@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome page</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<style> 
+	html { 
+  background: url(Welcome.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading{
+	 position: absolute;
+	 left: 700px;
+	 transform: translate(-50%,-50%);
+	 margin: -45px;
+	 padding: 0px;
+	 font-size: 3em;
+	 color: #fff;
+	 text-shadow:0 0 20px #ff005b;
+	}
+
+.heading:after{
+	content: attr(data-text);
+	position: absolute;
+	padding: 0 20px;
+	z-index: -1;
+	color: #ff005b;
+	filter: blur(15px);
+}
+.heading:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fe3a80;
+	z-index: -2;
+	opacity: 0.5;
+	filter: blur(40px);
+}
+.header{
+	margin: -15px;
+	padding: 15px;
+	width: 1800px;
+	height: 60px;
+	background-color: #000000;
+	display: block;
+}
+.myButton {
+	position: relative;
+	left: 565px;
+	top: 390px;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:10px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sans-serif;
+	font-size:29px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+	}
+.myButton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.B1{
+	font-size: 19px;
+	color: black;
+	background-color: white;
+	width: 1800px;
+	height: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	top:908px;
+}
+
+    
+
+</style>
+</head>
+<body> 
+	<header class="header">
+	</header>
+	<div class="container">
+		<h1 class="heading" data-text="[Hellow And Welcome To My Personal Portfolio]">Welcome To My Portfolio <h1>
+			
+	</div>
+	<div>
+		<a target="_blank" href="index.html"> <button class="myButton">Press Here</button> </a>
+	</div>
+			<div class="B1">
+				<p>“Genisys, a Google Adwords-certified leading Digital Marketing Agency is operating multi facet digital services throughout India specializing in Web development, Web design, Software development, Digital marketing services which include-SEO (Search Engine Optimization), SMM (Social Media Marketing), PPC(Pay Per Click), Email marketing, Content marketing, Mobile marketing, Affiliate marketing, Brand marketing and promotion, inbound marketing, Local Business Marketing, Business listing solution, Video brochure, Ecommerce solution, CRM service, Reputation Management, Online Presence analysis, Conversion Rate Optimization, Goggle service and so on to keep up with the high-tech advanced digital world and connecting the clients goal to reality through creative designers, digital strategists and specialized innovative team.”
+― Genisys</p>
+			</div>
+</body>
+</html>
